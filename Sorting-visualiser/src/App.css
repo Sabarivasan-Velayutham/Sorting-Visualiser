@@ -1,0 +1,195 @@
+.heading
+{
+  text-align: center;
+}
+
+.array-size input 
+{
+  font: inherit;
+  font-weight: bold;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  max-width: 100%;
+}
+
+.array-size button 
+{
+  font: inherit;
+  font-weight: bold;
+  padding: 0.5rem;
+  border-radius: 6px;
+  margin-left: 3%;
+  border: 1px solid #ccc;
+  width: 15%;
+  max-width: 100%;
+  background-color: rgb(3, 184, 48);
+  cursor: pointer;
+  transition: all 450ms;
+}
+
+button:hover
+{
+  transform: scale(1.09);
+  filter: brightness(150%); 
+}
+
+.sorts
+{
+  margin-top: 3%;
+  margin-left: 1%;
+  display: flex;
+}
+
+.sorts button
+{
+  display: flex;
+  flex-direction: column;
+  font: inherit;
+  font-weight: bold;
+  padding: 0.5rem;
+  border-radius: 6px;
+  margin-right: 3%;
+  border: 1px solid rgb(109, 185, 115);
+  width: 15%;
+  max-width: 100%;
+  background-color: rgb(3, 184, 48);
+  transition: all 450ms;
+  cursor: pointer;
+}
+
+.arrayContainer 
+{
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+	
+}
+
+.arrayElement{
+  
+  font-size: 7px;
+  margin: .4em;
+  width: 15px;
+} 
+
+@media screen 
+  and (max-width: 500px)   
+{
+  .array-size input 
+  {
+    font: inherit;
+    font-weight: bold;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    max-width: 50%;
+  }
+  
+  .array-size button 
+  {
+    font: inherit;
+    font-weight: bold;
+    padding: 0.5rem;
+    border-radius: 6px;
+    margin-left: 3%;
+    border: 1px solid #ccc;
+    width: 30%;
+    background-color: rgb(5, 255, 67);
+    cursor: pointer;
+    transition: all 450ms;
+  }
+  
+  .sorts
+  {
+    margin-top: 4%;
+    margin-left: 1%;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 10px;
+  }
+  
+  .sorts button
+  {
+    display: flex;
+    font: inherit;
+    font-weight: bold;
+    padding: 0.6rem;
+    border-radius: 6px;
+    margin-right: 3%;
+    border: 1px solid rgb(109, 185, 115);
+    width: 30%;
+    background-color: rgb(3, 184, 48);
+    transition: all 450ms;
+    cursor: pointer;
+  }
+
+  .arrayElement
+  { 
+    font-size: 10px;
+    margin: .2em;
+    width: 10px;
+  } 
+
+}
+
+@media screen and (max-width: 800px) 
+  {
+    .array-size input {
+      font: inherit;
+      font-weight: bold;
+      padding: 0.5rem;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      max-width: 50%;
+    }
+    
+    .array-size button 
+    {
+      font: inherit;
+      font-weight: bold;
+      padding: 0.5rem;
+      border-radius: 6px;
+      margin-left: 3%;
+      border: 1px solid #ccc;
+      width: 30%;
+      background-color: rgb(5, 255, 67);
+    }
+    
+    
+    .sorts
+    {
+      margin-top: 4%;
+      margin-left: 1%;
+      display: flex;
+      flex-direction:row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      row-gap: 10px;
+    }
+    
+    .sorts button
+    {
+      display: flex;
+      font: inherit;
+      font-weight: bold;
+      padding: 0.6rem;
+      border-radius: 6px;
+      margin-right: 3%;
+      border: 1px solid rgb(109, 185, 115);
+      width: 30%;
+      background-color: rgb(5, 255, 67);
+      transition: all 450ms;
+      cursor: pointer;
+    }
+  
+    .arrayElement
+    { 
+      font-size: 10px;
+      margin: .2em;
+      width: 10px;
+    } 
+  
+  }
